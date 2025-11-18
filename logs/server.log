@@ -1,11 +1,11 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [236] using StatReload
-INFO:     Started server process [238]
+INFO:     Started reloader process [283] using StatReload
+INFO:     Started server process [285]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:39734 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:39742 - "POST /api/seed HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:41714 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:41732 - "POST /api/seed HTTP/1.1" 500 Internal Server Error
 ERROR:    Exception in ASGI application
 Traceback (most recent call last):
   File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
@@ -149,7 +149,7 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.13/site-packages/pymongo/message.py", line 762, in _op_msg
     return _op_msg_uncompressed(flags, command, identifier, docs, opts)
 bson.errors.InvalidDocument: cannot encode object: HttpUrl('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop'), of type: <class 'pydantic.networks.HttpUrl'>
-INFO:     172.20.0.1:39744 - "POST /api/seed HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:41720 - "POST /api/seed HTTP/1.1" 500 Internal Server Error
 ERROR:    Exception in ASGI application
 Traceback (most recent call last):
   File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
@@ -293,7 +293,7 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.13/site-packages/pymongo/message.py", line 762, in _op_msg
     return _op_msg_uncompressed(flags, command, identifier, docs, opts)
 bson.errors.InvalidDocument: cannot encode object: HttpUrl('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop'), of type: <class 'pydantic.networks.HttpUrl'>
-INFO:     172.20.0.1:55888 - "POST /api/seed HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:53208 - "POST /api/seed HTTP/1.1" 500 Internal Server Error
 ERROR:    Exception in ASGI application
 Traceback (most recent call last):
   File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
@@ -437,7 +437,7 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.13/site-packages/pymongo/message.py", line 762, in _op_msg
     return _op_msg_uncompressed(flags, command, identifier, docs, opts)
 bson.errors.InvalidDocument: cannot encode object: HttpUrl('https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop'), of type: <class 'pydantic.networks.HttpUrl'>
-INFO:     172.20.0.1:55896 - "POST /api/seed HTTP/1.1" 500 Internal Server Error
+INFO:     172.20.0.1:53220 - "POST /api/seed HTTP/1.1" 500 Internal Server Error
 ERROR:    Exception in ASGI application
 Traceback (most recent call last):
   File "/usr/local/lib/python3.13/site-packages/uvicorn/protocols/http/h11_impl.py", line 408, in run_asgi
